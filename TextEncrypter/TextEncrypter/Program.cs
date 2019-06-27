@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TextEncrypter
 {
@@ -12,23 +8,24 @@ namespace TextEncrypter
         {
             string text;
             Cipher c;
-            Console.WriteLine("Lanning Cipher");
+            Console.WriteLine("The Lanning Cipher");
             while (true)
             {
                 Console.Write("Encrypt or Decrypt(e/d)?: ");
-                if (Console.Read() == 'e')
+                string choice = Console.ReadLine();
+                if (choice == "e")
                 {
                     Console.Write("Enter text to Encrypt: ");
                     text = Console.ReadLine();
                     c = new Cipher(text);
-                    c.Encrypt();
+                    Console.WriteLine("Encrypted Text: " + c.Encrypt());
                 }
-                else if (Console.Read() == 'd')
+                else if (choice == "d")
                 {
                     Console.Write("Enter text to Decrypt: ");
                     text = Console.ReadLine();
                     c = new Cipher(text);
-                    c.Decrypt();
+                    Console.WriteLine("Decrypted Text: " + c.Decrypt());
                 }
                 else
                 {

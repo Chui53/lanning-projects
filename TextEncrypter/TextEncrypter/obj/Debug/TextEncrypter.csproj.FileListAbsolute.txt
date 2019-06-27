@@ -1,0 +1,7 @@
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\bin\Debug\TextEncrypter.exe.config
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\bin\Debug\TextEncrypter.exe
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\bin\Debug\TextEncrypter.pdb
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\obj\Debug\TextEncrypter.csprojAssemblyReference.cache
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\obj\Debug\TextEncrypter.csproj.CoreCompileInputs.cache
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\obj\Debug\TextEncrypter.exe
+C:\Users\lannincm\source\repos\TextEncrypter\TextEncrypter\obj\Debug\TextEncrypter.pdb
