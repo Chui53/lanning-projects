@@ -87,50 +87,64 @@ namespace TextEncrypter
             char c;
             if (encrypt)
             {
-                if (Char.IsUpper(letter))
+                if (Char.IsLetter(letter))
                 {
-                    if(letter + shiftnum > 'Z')
+                    if (Char.IsUpper(letter))
                     {
-                        c = (char)(letter + shiftnum - 'Z' + 'A');
-                    } else
-                    {
-                        c = (char)(letter + shiftnum);
-                    }
-                } else
-                {
-                    if (letter + shiftnum > 'z')
-                    {
-                        c = (char)(letter + shiftnum - 'z' + 'a');
+                        if (letter + shiftnum > 'Z')
+                        {
+                            c = (char)(letter + shiftnum - 'Z' + 'A');
+                        }
+                        else
+                        {
+                            c = (char)(letter + shiftnum);
+                        }
                     }
                     else
                     {
-                        c = (char)(letter + shiftnum);
+                        if (letter + shiftnum > 'z')
+                        {
+                            c = (char)(letter + shiftnum - 'z' + 'a');
+                        }
+                        else
+                        {
+                            c = (char)(letter + shiftnum);
+                        }
                     }
+                } else
+                {
+                    c = (char)(letter + shiftnum);
                 }
             }
             else
             {
-                if (Char.IsUpper(letter))
+                if (Char.IsLetter(letter))
                 {
-                    if (letter - shiftnum < 'A')
+                    if (Char.IsUpper(letter))
                     {
-                        c = (char)(letter - shiftnum + 'Z' - 'A');
+                        if (letter - shiftnum <= 'A')
+                        {
+                            c = (char)(letter - shiftnum + 'Z' - 'A');
+                        }
+                        else
+                        {
+                            c = (char)(letter - shiftnum);
+                        }
                     }
                     else
                     {
-                        c = (char)(letter - shiftnum);
+                        if (letter - shiftnum <= 'a')
+                        {
+                            c = (char)(letter - shiftnum + 'z' - 'a');
+                        }
+                        else
+                        {
+                            c = (char)(letter - shiftnum);
+                        }
                     }
-                }
-                else
+                } else
                 {
-                    if (letter - shiftnum < 'a')
-                    {
-                        c = (char)(letter - shiftnum + 'z' - 'a');
-                    }
-                    else
-                    {
-                        c = (char)(letter - shiftnum);
-                    }
+                    c = (char)(letter - shiftnum);
                 }
             }
             return c;
