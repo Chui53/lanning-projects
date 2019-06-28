@@ -10,6 +10,7 @@ namespace TicTacToe
     {
         static void Main()
         {
+            int input;
             Board board = new Board();
             Console.WriteLine("Welcome to Tic Tac Toe!");
             Console.WriteLine("You will be facing against an AI opponent who will be playing X.");
@@ -29,8 +30,19 @@ namespace TicTacToe
                 "   |   |   ");
             Console.WriteLine("Each square is represented by a number.");
             Console.WriteLine("This is how you will input your moves.");
-            Console.Write("Press any key to continue...");
-            Console.ReadKey();
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Make a move (#): ");
+                    input = Int32.Parse(Console.ReadLine());
+                    board.Play(input);
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Incorrect Input");
+                }
+            }
         }
     }
 }

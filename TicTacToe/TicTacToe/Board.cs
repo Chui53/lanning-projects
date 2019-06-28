@@ -127,6 +127,7 @@ namespace TicTacToe
 
                     break;
             }
+            Print();
         }
         private void Check()
         {
