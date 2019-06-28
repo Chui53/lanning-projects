@@ -10,6 +10,7 @@ namespace TicTacToe
     {
         static void Main()
         {
+            Board board = new Board();
             Console.WriteLine("Welcome to Tic Tac Toe!");
             Console.WriteLine("You will be facing against an AI opponent who will be playing X.");
             Console.WriteLine("The AI will always go first.");
