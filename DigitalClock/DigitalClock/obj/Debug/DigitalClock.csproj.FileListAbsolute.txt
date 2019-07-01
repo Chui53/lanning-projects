@@ -1,0 +1,15 @@
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\bin\Debug\DigitalClock.exe.config
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\bin\Debug\DigitalClock.exe
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\bin\Debug\DigitalClock.pdb
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.csprojAssemblyReference.cache
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\MainWindow.g.cs
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\App.g.cs
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock_MarkupCompile.cache
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock_MarkupCompile.lref
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\MainWindow.baml
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.g.resources
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.Properties.Resources.resources
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.csproj.GenerateResource.cache
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.csproj.CoreCompileInputs.cache
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.exe
+C:\Users\lannincm\Documents\lanning-projects\DigitalClock\DigitalClock\obj\Debug\DigitalClock.pdb
