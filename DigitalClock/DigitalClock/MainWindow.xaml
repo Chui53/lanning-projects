@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DigitalClock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="500">
+        Title="World Clock" Height="260" Width="500">
     <Grid>
         <TextBlock x:Name="Time" TextAlignment="Center" Margin="10,0,10,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Height="150" FontSize="112"/>
         <Button x:Name="USEastern" Content="US EASTERN" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="Eastern_Click"/>
