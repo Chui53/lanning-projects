@@ -13,11 +13,11 @@ namespace ExtensionSorter
             // Adding paths and extensions to their respective lists.
             foreach(string file in Directory.GetFiles(path))
             {
-                if (Path.GetExtension(file) != ".exe")
+                if (Path.GetFileNameWithoutExtension(file) != "ExtensionSorter")
                 {
                     fileNames.Add(file);
                 }
-                if (!fileTypes.Contains(Path.GetExtension(file)) && Path.GetExtension(file) != ".exe")
+                if (!fileTypes.Contains(Path.GetExtension(file))&& Path.GetFileNameWithoutExtension(file) != "ExtensionSorter")
                 {
                     fileTypes.Add(Path.GetExtension(file));
                 }
