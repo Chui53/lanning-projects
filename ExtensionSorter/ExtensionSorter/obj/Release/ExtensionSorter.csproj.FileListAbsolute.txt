@@ -1,0 +1,6 @@
+C:\Users\lannincm\Documents\lanning-projects\ExtensionSorter\ExtensionSorter\bin\Release\ExtensionSorter.exe.config
+C:\Users\lannincm\Documents\lanning-projects\ExtensionSorter\ExtensionSorter\bin\Release\ExtensionSorter.exe
+C:\Users\lannincm\Documents\lanning-projects\ExtensionSorter\ExtensionSorter\bin\Release\ExtensionSorter.pdb
+C:\Users\lannincm\Documents\lanning-projects\ExtensionSorter\ExtensionSorter\obj\Release\ExtensionSorter.csproj.CoreCompileInputs.cache
+C:\Users\lannincm\Documents\lanning-projects\ExtensionSorter\ExtensionSorter\obj\Release\ExtensionSorter.exe
+C:\Users\lannincm\Documents\lanning-projects\ExtensionSorter\ExtensionSorter\obj\Release\ExtensionSorter.pdb

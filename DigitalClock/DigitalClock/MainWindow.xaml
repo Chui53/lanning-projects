@@ -8,10 +8,7 @@
         Title="World Clock" Height="260" Width="500">
     <Grid>
         <TextBlock x:Name="Time" TextAlignment="Center" Margin="10,0,10,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Height="150" FontSize="112"/>
-        <Button x:Name="USEastern" Content="US EASTERN" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="Eastern_Click"/>
-        <Button x:Name="Foreign" Content="JAPAN" Margin="0,165,10,0" VerticalAlignment="Top" Width="100" Height="45" HorizontalAlignment="Right" Click="Foreign_Click"/>
-        <Button x:Name="USCentral" Content="US CENTRAL" HorizontalAlignment="Left" Margin="133,165,0,0" VerticalAlignment="Top" Width="100" Height="45" Click="Central_Click"/>
-        <Button x:Name="USWestern" Content="US WESTERN" Margin="0,165,133,0" VerticalAlignment="Top" Width="100" Height="45" HorizontalAlignment="Right" Click="Western_Click"/>
+        <ComboBox x:Name="TimeBox" Margin="62,171,62,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
