@@ -17,7 +17,7 @@ namespace ExtensionSorter
                 {
                     fileNames.Add(file);
                 }
-                if (!fileTypes.Contains(Path.GetExtension(file))&& Path.GetFileNameWithoutExtension(file) != "ExtensionSorter")
+                if (!fileTypes.Contains(Path.GetExtension(file)) && Path.GetFileNameWithoutExtension(file) != "ExtensionSorter")
                 {
                     fileTypes.Add(Path.GetExtension(file));
                 }
