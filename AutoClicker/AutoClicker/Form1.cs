@@ -12,24 +12,25 @@ namespace AutoClicker
         public static int WM_HOTKEY = 0x312;
 
         [DllImport("user32.dll")]
-        public static extern void mouse_event(long dwFlags, long dx, long dy, long cButtons, long dwExtraInfo);
+        public static extern bool RegisterHotKey(IntPtr hWnd, int id, uint fsModifiers, uint vk);
 
         [DllImport("user32.dll")]
-        public static extern bool RegisterHotKey(IntPtr hWnd, int id, uint fsModifiers, uint vk);
+        public static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint cButtons, uint dwExtraInfo);
 
         private const int MOUSEEVENTF_LEFTDOWN = 0x02;
         private const int MOUSEEVENTF_LEFTUP = 0x04;
         private const int MOUSEEVENTF_RIGHTDOWN = 0x08;
         private const int MOUSEEVENTF_RIGHTUP = 0x10;
+        private static readonly Random rnd = new Random();
 
         public void AClick()
         {
             while (true)
             {
-                int x = Cursor.Position.X;
-                int y = Cursor.Position.Y;
+                uint x = (uint)Cursor.Position.X;
+                uint y = (uint)Cursor.Position.Y;
                 mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, x, y, 0, 0);
-                Thread.Sleep(militime);
+                Thread.Sleep(rnd.Next(0,militime));
 
             }
         }

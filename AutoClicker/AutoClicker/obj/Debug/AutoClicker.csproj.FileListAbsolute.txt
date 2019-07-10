@@ -1,0 +1,9 @@
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\bin\Debug\AutoClicker.exe.config
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\bin\Debug\AutoClicker.exe
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\bin\Debug\AutoClicker.pdb
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csprojAssemblyReference.cache
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.Properties.Resources.resources
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csproj.GenerateResource.cache
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.csproj.CoreCompileInputs.cache
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.exe
+C:\Users\lannincm\Documents\lanning-projects\AutoClicker\AutoClicker\obj\Debug\AutoClicker.pdb
