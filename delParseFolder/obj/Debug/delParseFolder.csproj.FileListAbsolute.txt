@@ -1,0 +1,7 @@
+C:\Users\lanning\source\repos\delParseFolder\bin\Debug\delParseFolder.exe.config
+C:\Users\lanning\source\repos\delParseFolder\bin\Debug\delParseFolder.exe
+C:\Users\lanning\source\repos\delParseFolder\bin\Debug\delParseFolder.pdb
+C:\Users\lanning\source\repos\delParseFolder\obj\Debug\delParseFolder.csprojAssemblyReference.cache
+C:\Users\lanning\source\repos\delParseFolder\obj\Debug\delParseFolder.csproj.CoreCompileInputs.cache
+C:\Users\lanning\source\repos\delParseFolder\obj\Debug\delParseFolder.exe
+C:\Users\lanning\source\repos\delParseFolder\obj\Debug\delParseFolder.pdb

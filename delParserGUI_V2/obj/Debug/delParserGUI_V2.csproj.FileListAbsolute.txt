@@ -1,0 +1,15 @@
+C:\Users\lanning\source\repos\delParserGUI_V2\bin\Debug\delParserGUI_V2.exe.config
+C:\Users\lanning\source\repos\delParserGUI_V2\bin\Debug\delParserGUI_V2.exe
+C:\Users\lanning\source\repos\delParserGUI_V2\bin\Debug\delParserGUI_V2.pdb
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.csprojAssemblyReference.cache
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\MainWindow.g.cs
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\App.g.cs
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2_MarkupCompile.cache
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2_MarkupCompile.lref
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\MainWindow.baml
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.g.resources
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.Properties.Resources.resources
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.csproj.GenerateResource.cache
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.csproj.CoreCompileInputs.cache
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.exe
+C:\Users\lanning\source\repos\delParserGUI_V2\obj\Debug\delParserGUI_V2.pdb
